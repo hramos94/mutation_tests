@@ -11,13 +11,3 @@ const char* triangle_type(int a, int b, int c) {
         return "Scalene";
     }
 }
-
-int main() {
-    int a, b, c;
-    printf("Enter three sides of the triangle: ");
-    scanf("%d %d %d", &a, &b, &c);
-    
-    printf("Triangle type: %s\n", triangle_type(a, b, c));
-    
-    return 0;
-}

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(my_project)
+project(mutation_tests)
 
 # GoogleTest requires at least C++14
 set(CMAKE_CXX_STANDARD 14)
@@ -17,13 +17,13 @@ FetchContent_MakeAvailable(googletest)
 enable_testing()
 
 add_executable(
-  tiangle_test
-  triangle_test.c
+  test_triangle
+  test_triangle.cpp
 )
 target_link_libraries(
-  triangle_test
+  test_triangle
   GTest::gtest_main
 )
 
 include(GoogleTest)
-gtest_discover_tests(triangle_test)
+gtest_discover_tests(test_triangle)

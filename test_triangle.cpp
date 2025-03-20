@@ -1,40 +1,41 @@
-#include <stdio.h>
-#include <assert.h>
-#include <string.h>
+#include <gtest/gtest.h>
+extern "C"
+{
 #include "triangle.h"
-
-void test_equilateral()
-{
-    assert(strcmp(triangle_type(3, 3, 3), "Equilateral") == 0);
 }
 
-void test_isosceles()
+// Teste para um triângulo equilátero
+TEST(TriangleTypeTest, Equilateral)
 {
-    assert(strcmp(triangle_type(5, 5, 3), "Isosceles") == 0);
+    EXPECT_STREQ(triangle_type(3, 3, 3), "Equilateral");
 }
 
-void test_scalene()
+// Teste para um triângulo isósceles
+TEST(TriangleTypeTest, Isosceles)
 {
-    assert(strcmp(triangle_type(3, 4, 5), "Scalene") == 0);
+    EXPECT_STREQ(triangle_type(5, 5, 3), "Isosceles");
 }
 
-void test_not_a_triangle()
+// Teste para um triângulo escaleno
+TEST(TriangleTypeTest, Scalene)
 {
-    assert(strcmp(triangle_type(1, 2, 3), "Not a triangle") == 0);
+    EXPECT_STREQ(triangle_type(3, 4, 5), "Scalene");
 }
 
-void test_degenerate_triangle()
+// Teste para um caso inválido (não forma um triângulo)
+TEST(TriangleTypeTest, NotATriangle)
 {
-    assert(strcmp(triangle_type(2, 2, 4), "Not a triangle") == 0);
+    EXPECT_STREQ(triangle_type(1, 2, 3), "Not a triangle");
 }
 
-int main()
+// Teste para um caso limite de triângulo degenerado
+TEST(TriangleTypeTest, DegenerateTriangle)
 {
-    test_equilateral();
-    test_isosceles();
-    test_scalene();
-    test_not_a_triangle();
-    test_degenerate_triangle();
+    EXPECT_STREQ(triangle_type(2, 2, 4), "Not a triangle");
+}
 
-    return 0;
+int main(int argc, char **argv)
+{
+    ::testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
 }
