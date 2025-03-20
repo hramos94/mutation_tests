@@ -1,6 +1,6 @@
-TriangleTypeTest.Equilateral 4 0.000964683
-TriangleTypeTest.Isosceles 4 0.00328467
-TriangleTypeTest.Scalene 4 0.00123076
-TriangleTypeTest.NotATriangle 4 0.000869269
-TriangleTypeTest.DegenerateTriangle 4 0.000813306
+TriangleTypeTest.Equilateral 7 0.00058857
+TriangleTypeTest.Isosceles 7 0.000504799
+TriangleTypeTest.Scalene 7 0.000713043
+TriangleTypeTest.NotATriangle 7 0.00372735
+TriangleTypeTest.DegenerateTriangle 7 0.000577248
 ---
