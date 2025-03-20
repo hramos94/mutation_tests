@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_triangle.dir/test_triangle.cpp.o CMakeFiles/test_triangle.dir/triangle.c.o -o test_triangle  lib/libgtest_main.a lib/libgtest.a 

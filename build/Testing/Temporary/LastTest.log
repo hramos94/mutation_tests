@@ -1,0 +1,133 @@
+Start testing: Mar 20 11:24 -03
+----------------------------------------------------------
+1/5 Testing: TriangleTypeTest.Equilateral
+1/5 Test: TriangleTypeTest.Equilateral
+Command: "/home/hlr/Documents/mutation_tests/build/test_triangle" "--gtest_filter=TriangleTypeTest.Equilateral" "--gtest_also_run_disabled_tests"
+Directory: /home/hlr/Documents/mutation_tests/build
+"TriangleTypeTest.Equilateral" start time: Mar 20 11:24 -03
+Output:
+----------------------------------------------------------
+Note: Google Test filter = TriangleTypeTest.Equilateral
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TriangleTypeTest
+[ RUN      ] TriangleTypeTest.Equilateral
+[       OK ] TriangleTypeTest.Equilateral (0 ms)
+[----------] 1 test from TriangleTypeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TriangleTypeTest.Equilateral" end time: Mar 20 11:24 -03
+"TriangleTypeTest.Equilateral" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: TriangleTypeTest.Isosceles
+2/5 Test: TriangleTypeTest.Isosceles
+Command: "/home/hlr/Documents/mutation_tests/build/test_triangle" "--gtest_filter=TriangleTypeTest.Isosceles" "--gtest_also_run_disabled_tests"
+Directory: /home/hlr/Documents/mutation_tests/build
+"TriangleTypeTest.Isosceles" start time: Mar 20 11:24 -03
+Output:
+----------------------------------------------------------
+Note: Google Test filter = TriangleTypeTest.Isosceles
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TriangleTypeTest
+[ RUN      ] TriangleTypeTest.Isosceles
+[       OK ] TriangleTypeTest.Isosceles (0 ms)
+[----------] 1 test from TriangleTypeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TriangleTypeTest.Isosceles" end time: Mar 20 11:24 -03
+"TriangleTypeTest.Isosceles" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: TriangleTypeTest.Scalene
+3/5 Test: TriangleTypeTest.Scalene
+Command: "/home/hlr/Documents/mutation_tests/build/test_triangle" "--gtest_filter=TriangleTypeTest.Scalene" "--gtest_also_run_disabled_tests"
+Directory: /home/hlr/Documents/mutation_tests/build
+"TriangleTypeTest.Scalene" start time: Mar 20 11:24 -03
+Output:
+----------------------------------------------------------
+Note: Google Test filter = TriangleTypeTest.Scalene
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TriangleTypeTest
+[ RUN      ] TriangleTypeTest.Scalene
+[       OK ] TriangleTypeTest.Scalene (0 ms)
+[----------] 1 test from TriangleTypeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TriangleTypeTest.Scalene" end time: Mar 20 11:24 -03
+"TriangleTypeTest.Scalene" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: TriangleTypeTest.NotATriangle
+4/5 Test: TriangleTypeTest.NotATriangle
+Command: "/home/hlr/Documents/mutation_tests/build/test_triangle" "--gtest_filter=TriangleTypeTest.NotATriangle" "--gtest_also_run_disabled_tests"
+Directory: /home/hlr/Documents/mutation_tests/build
+"TriangleTypeTest.NotATriangle" start time: Mar 20 11:24 -03
+Output:
+----------------------------------------------------------
+Note: Google Test filter = TriangleTypeTest.NotATriangle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TriangleTypeTest
+[ RUN      ] TriangleTypeTest.NotATriangle
+[       OK ] TriangleTypeTest.NotATriangle (0 ms)
+[----------] 1 test from TriangleTypeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TriangleTypeTest.NotATriangle" end time: Mar 20 11:24 -03
+"TriangleTypeTest.NotATriangle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: TriangleTypeTest.DegenerateTriangle
+5/5 Test: TriangleTypeTest.DegenerateTriangle
+Command: "/home/hlr/Documents/mutation_tests/build/test_triangle" "--gtest_filter=TriangleTypeTest.DegenerateTriangle" "--gtest_also_run_disabled_tests"
+Directory: /home/hlr/Documents/mutation_tests/build
+"TriangleTypeTest.DegenerateTriangle" start time: Mar 20 11:24 -03
+Output:
+----------------------------------------------------------
+Note: Google Test filter = TriangleTypeTest.DegenerateTriangle
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TriangleTypeTest
+[ RUN      ] TriangleTypeTest.DegenerateTriangle
+[       OK ] TriangleTypeTest.DegenerateTriangle (0 ms)
+[----------] 1 test from TriangleTypeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TriangleTypeTest.DegenerateTriangle" end time: Mar 20 11:24 -03
+"TriangleTypeTest.DegenerateTriangle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 20 11:24 -03
